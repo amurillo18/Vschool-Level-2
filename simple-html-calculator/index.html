@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calc">
+        <!-- addition -->
+        <div id="add">
+            <label>Add: 
+            <form name="add">
+                <input id="firstNumberAdd" type="number" placeholder="first number" required>
+                +
+                <input id="secondNumberAdd" type="number" placeholder="second number">
+                =
+                <input id="addResult" type="number">
+                <button id="addButton">Add</button>
+            </form></label>
+        </div>
+        <!-- Subtraction -->
+        <div id="sub">
+            <label>Subtract:
+            <form name="subtract">
+                <input id="firstNumberSub" type="number" placeholder="first number" required>
+                -
+                <input id="secondNumberSub" type="number" placeholder="second number">
+                =
+                <input id="subResult" type="number">
+                <button id="subButton">Subtract</button>
+            </form></label>
+        </div>
+        <!-- Multiply -->
+        <div id="multiply">
+            <label>Multiply:
+            <form name="multiply">
+                <input id="firstNumberMult" type="number" placeholder="first number" required> *
+                <input id="secondNumberMult" type="number" placeholder="second number">
+                =
+                <input id="multiplyResult" type="number">
+                <button id="multiplyButton">Multiply</button>
+            </form></label>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
