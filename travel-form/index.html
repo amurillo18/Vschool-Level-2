@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Form</title>
+</head>
+<body>
+    <h1>Fun Times Airlines</h1>
+    <h2>Travel Form</h2>
+    <p>Please fill out and submit this form to purchase tickets.</p>
+    <div class="form">
+        <form name="travelForm">
+            <label>First Name: <input id="firstName" type="text" placeholder="First Name" name="firstName"required></label>
+            <br>
+            <label>Last Name: <input id="lastName" type="text" placeholder="Last Name" name="lastName"required></label>
+            <br>
+            <label>Age: <input id="age" type="number" placeholder="Age" name="age"required></label>
+            <br>
+            <label>Gender: 
+                <br>
+                <label class="gender">Female<input id="gender" type="radio" value="Female" name="gender"></label><label class="gender">Male<input id="gender" type="radio" value="Male" name="gender"></label></label>
+            <br>
+            
+            <label class="location">Location: <select name="location" id="location">
+                <option value="San Diego">San Diego</option>
+                <option value="Washington D.C"> Washington D.C</option>
+                <option value="Key West">Key West</option>
+            </select></label>
+            <br>
+            <label class="diet">Dietary Restrictions: 
+                <br>
+                <label>Vegan<input id="dietVegan" name="vegan" type="checkbox" value="vegan"></label>
+            <label>Vegetarian<input id="dietVegetarian"type="checkbox" name="vegetarian" value="vegetarian"></label>
+             <label>Gluten Free<input type="checkbox" id="dietGlutenFree"name="glutenFree" value="gluten-free"></label></label>
+
+            <button name="submitButton" id="submitButton">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+/* mobile first */
+* {
+    background-color: blanchedalmond;
+}
+
+.form {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+label {
+    font-weight: bold;
+    float: left;
+    margin-bottom: 20px ;
+}
+
+#submitButton {
+    background-color: white;
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
+    margin-top: 150px;
+    
+}
+select {
+    background-color: white;
+}
+/* tablet */
+@media only screen and (min-width: 768px)
+{
+    .gender {
+        margin-left: 25px;
+        
+    }
+
+    .diet {
+        margin-top: 25px;
+        margin-right: 15px;
+    }
+}
+/* laptop */
+@media only screen and (min-width: 1024px) 
+{
+    .diet {
+        margin-top: 80px;
+        margin-left: -190px;
+    }
+    .form {
+       justify-content: center;
+        
+    }
+
+    #submitButton {
+        margin-top: 0;
+    }
+
+   h1 {
+    margin-left: 515px;
+   }
+
+   h2 {
+    margin-left: 580px;
+   }
+
+   p {
+    margin-left: 480px;
+   }
+
+   label {
+    margin-bottom: 5px;
+   }
+}
