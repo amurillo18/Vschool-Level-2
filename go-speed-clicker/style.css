@@ -1,0 +1,9 @@
+* {
+    background-color: cornflowerblue;
+}
+
+button {
+    background-color: cyan;
+    height: 40px;
+    width: 80px;
+}
