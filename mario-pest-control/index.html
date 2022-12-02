@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mario Pest Control</title>
+</head>
+<header>
+    <h1>Mario Pest Control</h1>
+</header>
+<main>
+    <table>
+        <thead>
+            <h2 id="formTitle">Bad Guys</h2>
+            <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Price(in coins)</th>
+                <th>Quantity</th>
+                <th>Total( in coins)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <form name="invoiceForm">
+                <!-- Goomba -->
+                <tr>
+                    <td>
+                        <img src="assets/goomba.jpg" width="50px" height="50px">
+                    </td>
+                    <td><p>Goomba<p></td>
+                    <td><p >5</p></td>
+                    <td><input type="number" id="goombaQuantity"></td>
+                    <td><p id="goombaPriceTotal"></p></td>
+                </tr>
+             <!-- Bob-omb -->
+             <tr>
+                <td>
+                    <img src="assets/bob-omb.jpg" width="50px" height="50px">
+                </td>
+                <td><p>Bob-omb<p></td>
+                <td><p>7</p></td>
+                <td><input type="number" id="bobombQuantity"></td>
+                <td> <p id="bobombPriceTotal"></p></td>
+            </tr>
+            <!-- Cheep Cheep -->
+            <tr>
+                <td>
+                    <img src="assets/cheep-cheep.jpg" width="50px" height="50px">
+                </td>
+                <td><p>Cheep-Cheep</p></td>
+                <td><p>11</p></td>
+                <td><input type="number" id="cheepQuantity"></td>
+                <td><p id="cheepPriceTotal"></p></td>
+            </tr>
+            <!-- Total -->
+            <tr>
+                <td><h3>Total</h3></td>
+                <td></td>
+                <td></td>
+                <td><p id="totalQuantity"></p></td>
+                <td><p id="totalPrice"></p></td>
+            </tr>
+            </form>
+        </tbody>
+    </table>
+    <button id="totalCalc">Total </button>
+</main>
+<footer>
+mario@mariopestcontrol.com
+<br>
+www.mariopestcontrol.com
+<br>
+13 Mushroom Alley, The Mushroom Kingdom 
+</footer>
+<body>
+    <script src="app.js"></script>
+</body>
+</html>
