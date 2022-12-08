@@ -69,3 +69,30 @@ function sortedOfAge(arr){
  ]
  */
  
+// extra credit collaborated with Adeeb Ogaili
+//  1
+function addPerson(arr){
+    return arr.push({
+        firstName: "Will",
+        lastName: "Smith",
+        age: 35
+
+    })
+    
+ }
+ 
+ console.log(addPerson(peopleArray));
+console.log(peopleArray);
+// 2
+function lastNameFilter(arr){
+    
+     return arr.filter((people) => {
+      let str = people.lastName;
+      let res = str.charAt(str.length-1);
+      if (res == "y" || res == "a") {
+       return people
+      }
+     })
+  }
+ console.log(lastNameFilter(peopleArray));
+ 
