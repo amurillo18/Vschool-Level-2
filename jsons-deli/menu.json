@@ -1,0 +1,10 @@
+{"appetizers":[{"name": "fried pickles", "ingredients": ["flour", "pickles"], "description": "A small plate of deep fried pickles."}, {"name":"nachos", "ingredients":["tortilla chips", "cheese", "jalapenos"], "description": "A decadent stack of nachos"}],
+
+"cold sandwiches":[{"name": "turkey sandwich", "ingredients":["mayo", "turkey", "white bread", "tomatoes", "lettuce"], "description": "your basic turkey sandwich."}, {"name": "ham sandwich", "ingredients": ["ham", "white bread", "mayo", "mustard", "tomatoes", "lettuce"], "description": "a simple ham sandwich"}],
+
+"hot sandwiches": [{"name": "french dip", "ingredients":["cheese", "roast beef", "french bread", "au jus"], "description": "hot roatbeef sandwich served with a side of au jus."}, {"name": "philly cheesesteak", "ingredients": ["ribeye steak", "french bread", "cheese", "onions", "peppers"], "description": "a basic hot philly cheesesteak sandwich"}],
+
+"desserts": [{"name": "strawberry cheesecake", "ingredients":["cream cheese", "strawberries", "graham crackers"], "description": "delicious slice of strawberry cheesecake with a graham cracker crust."}, {"name": "chocolate brownie", "ingredients": ["chocolate", "flour", "chocolate chips"], "description": "a piece of chocolate brownie containing chocolate chips."}],
+
+"drinks":[{"name": "coffee", "ingredients":["coffee beans", "water", "milk", "sugar"], "description": "your basic cup of coffee."}, {"name": "iced sweet tea", "ingredients": ["tea", "water", "sugar", "ice"], "description": "a good 'ol cup of souther style sweet tea."}]
+}
